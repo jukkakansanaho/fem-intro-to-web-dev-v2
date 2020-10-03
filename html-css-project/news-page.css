@@ -1,0 +1,117 @@
+.container {
+}
+
+.container-title {
+  display: flex;
+  justify-content: center;
+}
+
+.container-upper {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-lower {
+  display: flex;
+  flex-direction: row;
+}
+
+.article-left {
+  flex-basis: 25%;
+}
+
+.article-middle {
+  flex-basis: 50%;
+}
+
+.article-right {
+  flex-basis: 25%;
+}
+
+.article {
+  border-top-color: black;
+  border-bottom-color: black;
+  border-left-color: grey;
+  border-right-color: grey;
+  border-style: solid;
+  border-top-width: medium;
+  border-bottom-width: medium;
+  border-left-width: thin;
+  border-right-width: thin;
+  padding: 5px;
+}
+
+.article-navigation {
+  display: flex;
+  flex-basis: 75%;
+  flex-direction: column;
+  align-items: stretch;
+  border-top-color: black;
+  border-bottom-color: black;
+  border-left-color: grey;
+  border-right-color: grey;
+  border-style: solid;
+  border-top-width: medium;
+  border-bottom-width: medium;
+  border-left-width: thin;
+  border-right-width: thin;
+}
+
+.container-title {
+  color: black;
+  font-family: fantasy;
+  font-style: italic;
+  font-size: 32px;
+}
+
+.article-title {
+  color: black;
+  font-family: monospace;
+  font-style: italic;
+  font-size: 25px;
+  justify-content: center;
+  text-align: center;
+}
+
+.article-text {
+  color: black;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.image {
+  align-content: center;
+}
+.nav {
+  color: DimGray;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 10px;
+}
+
+a {
+  color: DimGray;
+  text-decoration: none;
+}
+
+.nav-1 {
+  background-color: Khaki;
+  flex-grow: 1;
+}
+.nav-2 {
+  background-color: DarkTurquoise;
+  flex-grow: 1;
+}
+.nav-3 {
+  background-color: DarkSeaGreen;
+  flex-grow: 1;
+}
+.nav-4 {
+  background-color: DodgerBlue;
+  flex-grow: 1;
+}
+.nav-5 {
+  background-color: MediumPurple;
+  flex-grow: 1;
+}

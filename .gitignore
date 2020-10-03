@@ -1,0 +1,13 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Ignore Mac
+.DS_Store
+
+# Misc
+cli_commands.py
+*.code-workspace
+
+# package directories
+node_modules
+jspm_packages
