@@ -4,18 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./news-page.css" />
     <title>FEM: The News Times</title>
   </head>
 
   <body>
     <div class="container">
-      <div class="container-title">
-        <h1>The News Times</h1>
-      </div>
+      <h1 class="container-title">The News Times</h1>
 
-      <div class="container-upper">
-        <div class="article article-left">
+      <section class="container-upper">
+        <article class="article article-left">
           <h2 class="article-title">Student Learns HTML</h2>
           <p class="article-text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ad in
@@ -31,12 +33,16 @@
             eligendi nemo, ad laudantium cupiditate aspernatur eveniet
             asperiores modi praesentium voluptas eos sunt odio.
           </p>
-        </div>
+        </article>
 
-        <div class="article article-middle">
+        <article class="article article-middle">
           <h2 class="article-title">BREAKING: Puppies Are Adorable</h2>
           <div class="image">
-            <img src="https://placecorgi.com/500/300" alt="a-dorable-puppy" />
+            <img
+              class="article-image"
+              src="http://placecorgi.com/500/300"
+              alt="adorable-puppy"
+            />
           </div>
 
           <p class="article-text">
@@ -53,9 +59,9 @@
             eligendi nemo, ad laudantium cupiditate aspernatur eveniet
             asperiores modi praesentium voluptas eos sunt odio.
           </p>
-        </div>
+        </article>
 
-        <div class="article article-right">
+        <article class="article article-right">
           <h2 class="article-title">CSS Is Apparently A Thing</h2>
           <p class="article-text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ad in
@@ -71,11 +77,11 @@
             eligendi nemo, ad laudantium cupiditate aspernatur eveniet
             asperiores modi praesentium voluptas eos sunt odio.
           </p>
-        </div>
-      </div>
+        </article>
+      </section>
       <!-- eo-container-upper -->
-      <div class="container-lower">
-        <div class="article article-left">
+      <section class="container-lower">
+        <article class="article article-left">
           <h2 class="article-title">Boys Like Turtles</h2>
           <p class="article-text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ad in
@@ -91,26 +97,26 @@
             eligendi nemo, ad laudantium cupiditate aspernatur eveniet
             asperiores modi praesentium voluptas eos sunt odio.
           </p>
-        </div>
-        <div class="article article-navigation">
-          <div class="nav nav-1">
-            <a href="#">Politics</a>
-          </div>
-          <div class="nav nav-2">
-            <a href="#">Technology</a>
-          </div>
-          <div class="nav nav-3">
-            <a href="#">Local</a>
-          </div>
-          <div class="nav nav-4">
-            <a href="#">Opinion</a>
-          </div>
-          <div class="nav nav-5">
-            <a href="#">Sports</a>
-          </div>
-        </div>
-      </div>
-      <!-- eo-container-upper -->
+        </article>
+        <ul class="article article-navigation three-quarter">
+          <li class="nav-item"><a href="#">Politics</a></li>
+          <li class="nav-item"><a href="#">Technology</a></li>
+          <li class="nav-item"><a href="#">Local</a></li>
+          <li class="nav-item"><a href="#">Opinion</a></li>
+          <li class="nav-item"><a href="#">Sports</a></li>
+        </ul>
+      </section>
+      <!-- eo-container-lower -->
+      <section class="container-lowest">
+        <button
+          class="button"
+          type="button"
+          name="button"
+          onclick="location.reload()"
+        >
+          Reload
+        </button>
+      </section>
     </div>
     <!-- eo-container -->
   </body>
