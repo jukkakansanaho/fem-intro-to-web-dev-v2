@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  border: 0;
+}
+
+.container {
+  background-color: black;
+  width: 400px;
+  font-size: 40px;
+  color: white;
+}
+
+.result {
+  width: 100%;
+  color: white;
+  font-family: 'Courier New', 'Courier', monospace;
+  font-weight: lighter;
+  text-align: right;
+  font-size: 50px;
+  padding: 20px 5px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: space-between;
+  margin-bottom: 0.5%;
+  font-family: sans-serif;
+}
+
+.button {
+  /* background-color: #b3b3b3; */
+  background-color: #d8d9db;
+  font-size: 40px;
+  font-family: sans-serif;
+  height: 100px;
+  width: 24.5%;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ebebeb;
+}
+
+.button:active {
+  background-color: #bbbccc;
+}
+
+/* NOTE: button:last-child used to replace .operator class */
+.button:last-child {
+  background-color: #df974c;
+  color: white;
+}
+
+.button:last-child:hover {
+  background-color: #dfb07e;
+  color: white;
+}
+
+.button:last-child:active {
+  background-color: #dd8d37;
+  color: white;
+}
+
+/* .operator {
+  background-color: #e69500;
+  color: white;
+} */
+
+/* .operator:hover {
+  background-color: #ffaf1a;
+} */
+
+/* .operator:active {
+  background: #cc8500;
+} */
+
+.clear {
+  width: 49.7%;
+}
+
+.zero {
+  width: 74.8%;
+}
