@@ -11,15 +11,14 @@ Target of the course is to learn Web Development basics.
 
 # Topics
 
-- Web development (in general)
-- HTML
-- CSS
-- Learning JavaScript
-- Using AJAX and Node.js
-- Learning Git
-- Using Node.js
+- Web development (in general), HTML, CSS, JavaScript,AJAX, Node.js, Git
 
 # Projects
 
-- HTML + CSS: The News Times web page
-- HTML + CSS + JS: online Calculator
+#### HTML + CSS: The News Times web page
+
+![HTML + CSS: The News Times web page](./pics/FEM-Intro-to-Web-Dev-NewsPage.png)
+
+#### HTML + CSS + JS: online Calculator
+
+![HTML + CSS + JS: Calculator](./pics/FEM-Intro-to-Web-Dev-Calculator.png)
