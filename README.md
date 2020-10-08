@@ -19,6 +19,7 @@ Target of the course is to learn Web Development basics.
 - Learning Git
 - Using Node.js
 
-# Course related NOTES
+# Projects
 
-- ...
+- HTML + CSS: The News Times web page
+- HTML + CSS + JS: online Calculator
