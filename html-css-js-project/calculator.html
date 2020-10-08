@@ -9,7 +9,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="./calculator.css" />
-    <script type="text/javascript" src="./calculator.js"></script>
     <title>FEM: Calculator</title>
   </head>
 
@@ -18,35 +17,43 @@
       <section class="row row-1">
         <div class="result">0</div>
       </section>
-      <section class="row row-2">
-        <button class="button clear">C</button>
-        <button class="button backspace">
-          ←
-        </button>
-        <button class="button operator divide">÷</button>
-      </section>
-      <section class="row row-3">
-        <button class="button number">7</button>
-        <button class="button number">8</button>
-        <button class="button number">9</button>
-        <button class="button operator multiply">×</button>
-      </section>
-      <section class="row row-4">
-        <button class="button number">4</button>
-        <button class="button number">5</button>
-        <button class="button number">6</button>
-        <button class="button operator reduce">-</button>
-      </section>
-      <section class="row row-5">
-        <button class="button number">1</button>
-        <button class="button number">2</button>
-        <button class="button number">3</button>
-        <button class="button operator add">+</button>
-      </section>
-      <section class="row row-6">
-        <button class="button number zero">0</button>
-        <button class="button operator equals">=</button>
+
+      <section class="buttons">
+        <div class="row row-2">
+          <button class="button clear">C</button>
+          <button class="button backspace">
+            ←
+          </button>
+          <button class="button operator divide">÷</button>
+        </div>
+
+        <div class="row row-3">
+          <button class="button number">7</button>
+          <button class="button number">8</button>
+          <button class="button number">9</button>
+          <button class="button operator multiply">×</button>
+        </div>
+
+        <div class="row row-4">
+          <button class="button number">4</button>
+          <button class="button number">5</button>
+          <button class="button number">6</button>
+          <button class="button operator reduce">-</button>
+        </div>
+
+        <div class="row row-5">
+          <button class="button number">1</button>
+          <button class="button number">2</button>
+          <button class="button number">3</button>
+          <button class="button operator add">+</button>
+        </div>
+
+        <div class="row row-6">
+          <button class="button number zero">0</button>
+          <button class="button operator equals">=</button>
+        </div>
       </section>
     </div>
+    <script type="text/javascript" src="./calculator.js"></script>
   </body>
 </html>
